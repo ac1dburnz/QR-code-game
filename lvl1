@@ -1,0 +1,32 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+	<title>QR hunter!</title>
+
+
+ 
+   
+    </head>
+    
+<body>
+    <div data-role="page" data-theme="b">
+        <div data-role="header">
+  <div> <center><h1>  QR Adventures</h1></center></div>
+           
+            <h2>  The point is to collect the QR codes to get to the finish!To get the QR codes you have to solve a riddle get the QR code and decode it with the QR decoder. once you passed the first challenge youll be directed to a location on the map. once there solve the riddle and go onto the next . Have fun and be safe!</h2>
+    
+<div style=" max-width:100%; height:40%; text-align:center">
+      <img src="picture.jpg"
+        style="float:middle; max-width:40%;
+    height:auto;">
+  <div class="ui-content">
+      
+      <a href="index.html" class="ui-btn">Decode QR code</a>
+</div>
+	
+		
+	
+	
+	
+	
+</body>

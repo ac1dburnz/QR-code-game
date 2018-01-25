@@ -1,0 +1,50 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+	<title>QR hunter!</title>
+
+
+ 
+   
+    </head>
+    
+<body>
+    <div data-role="page" data-theme="b">
+        <div data-role="header">
+  <div> <center><h1>  QR Adventures</h1></center></div>
+    
+           <middle> <h2> 
+I don't have eyes, but once I did see. Once I had thoughts, but now I'm white and empty. </h2></middle>
+            
+    
+<div style=" max-width:100%; height:40%; text-align:center">
+      <img src="picture1.jpg"
+        style="float:middle; max-width:40%;
+    height:auto;">
+  <div class="ui-content">
+      
+      <a href="Decoder.html" class="ui-btn">Decode QR code</a>
+    </div>
+	 <form>
+    <input type="text" placeholder="Riddle answer" id="text1" /><br />
+    <input type="text" placeholder="lower case only." id="text2" /><br />
+    <input type="button" value="Check"  onclick="javascript:validate()" />
+</form>
+<script type="text/javascript">
+function validate()
+{
+    if(   document.getElementById("text1").value == "skull"
+       && document.getElementById("text2").value == "" )
+    {
+        alert( "validation succeeded" );
+        location.href="QR2.html";
+    }
+    else
+    {
+        alert( "validation failed" );
+        location.href="lvl2.html";
+    }
+}
+</script>
+		
+	

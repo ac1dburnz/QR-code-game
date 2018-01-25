@@ -1,0 +1,62 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+	<title>QR hunter!</title>
+
+
+ 
+   
+    </head>
+    
+<body>
+    <div data-role="page" data-theme="b">
+        <div data-role="header">
+  <div> <center><h1>  QR Adventures</h1></center></div>
+    
+           <middle> <h2> 
+I turn polar bears white
+and I will make you cry.
+I make guys have to pee
+and girls comb their hair.
+I make celebrities look stupid
+and normal people look like celebrities.
+I turn pancakes brown
+and make your champane bubble.
+If you sqeeze me, I'll pop.
+If you look at me, you'll pop.
+Can you guess the riddle?
+
+97% of Harvard graduates can not figure this riddle out, but 84% of kindergarten students were able to figure this out in 6 minutes or
+less. Can you guess the correct answer? </h2></middle>
+            
+    
+<div style=" max-width:100%; height:40%; text-align:center">
+      <img src="picture1.jpg"
+        style="float:middle; max-width:40%;
+    height:auto;">
+  <div class="ui-content">
+      
+      <a href="Decoder.html" class="ui-btn">Decode QR code</a>
+    </div>
+	 <form>
+    <input type="text" placeholder="Riddle answer" id="text1" /><br />
+    <input type="text" placeholder="lower case only." id="text2" /><br />
+    <input type="button" value="Check"  onclick="javascript:validate()" />
+</form>
+<script type="text/javascript">
+function validate()
+{
+    if(   document.getElementById("text1").value == "eye"
+       && document.getElementById("text2").value == "" )
+    {
+        alert( "validation succeeded" );
+        location.href="QR4.html";
+    }
+    else
+    {
+        alert( "validation failed" );
+        location.href="lvl3.html";
+    }
+}
+</script>
+		
